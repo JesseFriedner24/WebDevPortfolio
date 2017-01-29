@@ -1,0 +1,18 @@
+{
+  "name": "bootstrapportfolio",
+  "description": "portfolio",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/JesseFriedner24/MusolistMobileApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "ui-router#^0.4.2",
+    "angular": "^1.6.1"
+  }
+}
