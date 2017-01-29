@@ -34,23 +34,29 @@
 <style>
 body,
 html { 
-  background: url('img/cityScape.jpg') no-repeat center center fixed; 
+  background: url('img/colorBlend.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   opacity: 1.0;
   font-family: 'Montserrat', sans-serif;
-  color: dodgerblue;
+  color: powderblue;
   }
 .top {
   font-family: 'Pacifico', cursive;
 }
 .navbar {
-    background-color: powderblue;
-    opacity: 0.8;
+    background: none;
+    border: none;
+    min-height:100%;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 50px;
+    width: 100%;
+    opacity: 0.3;
+    
 }
-
 .panel,
 .items {
     background-image: url('img/rgb.jpg'); 
@@ -59,18 +65,16 @@ html {
 }
 .bigFont li{
 font-size:24px;
+color: powderblue;
 }
-
 #rightList {
     float: right;
     display: inline;
 }
-
 /*li {
     float: left;
     display: inline;
 }*/
-
 .items {
     overflow: hidden; /* simple clearfix */
 }
@@ -79,15 +83,11 @@ font-size:24px;
   width: 25%;
   box-sizing: border-box;
   padding: 10px;
+  color: powderblue;
 }
 </style> 
-
-
-
 </head>
-
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -126,7 +126,6 @@ font-size:24px;
     <header class="image-bg-fluid-height">
         <img class="img-responsive img-center" src="img/jesseLogoTest.png" alt="">
     </header>
-
      <!-- Content Section -->
     <section>
         <div class="panel">
@@ -134,7 +133,7 @@ font-size:24px;
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="section-heading">I am currently available for hire. <span class="text-muted"></span></h1>
-                    <p class="lead section-lead">I have a passion towards Front-End development, here are the languages/frameworks I specialize in: </p>
+                    <p class="lead section-lead">Here are the languages/frameworks I specialize in: </p>
                     <div class="items">
                     <div class="item">JavaScript</div>
                     <div class="item">AngularJS</div>
@@ -145,20 +144,29 @@ font-size:24px;
                     <div class="item">REST APIs</div>
                     <div class="item">C# ASP.NET</div>
                     </div>
+                     <p class="lead section-lead">Tools I make use of: </p>
+                    <div class="items">
+                    <div class="item">Git</div>
+                    <div class="item">Gulp</div>
+                    <div class="item">Bower</div>
+                    <div class="item">GitHub</div>
+                    <div class="item">Trello</div>
+                    <div class="item">Slack</div>
+                    <div class="item">Sublime</div>
+                    <div class="item">Visual Studio</div>
+                    </div>
                 </div>
             </div>
         </div>
         </div>
-
     </section>
-
     <!-- Content Section -->
     <section>
         <div class="panel">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-heading">How to Hire me. <span class="text-muted">you definitely should.</span></h1>
+                    <h1 class="section-heading">How to Hire Me. <span class="text-muted">you definitely should.</span></h1>
                     <p class="lead section-lead">Contact me at: </p>
                     <ul class="bigFont">
                     <li>jesse.friedner@gmail.com</li>
@@ -169,13 +177,9 @@ font-size:24px;
             </div>
         </div>
         </div>
-
     </section>
-
     <!-- Fixed Height Image Aside -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
-    
-
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -188,13 +192,9 @@ font-size:24px;
         </div>
         <!-- /.container -->
     </footer>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
 </body>
-
 </html>
